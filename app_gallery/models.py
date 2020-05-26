@@ -60,6 +60,16 @@ class Image(models.Model):
     def __str__(self):
         return self.name
 
+    @classmethod
+    def get_image(cls,id):
+        one_image = Image.objects.get(id=id)
+        return one_image
+
+    @classmethod
+    def get_images(cls):
+        all_images = Image.objects.all()
+        return all_images
+    
     
     
     
