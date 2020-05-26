@@ -6,9 +6,10 @@ from . import views
 
 
 urlpatterns=[
-    path('',views.gallery,name = 'gallery'),
-    path('location/<location_name>',views.location,name ='location'),
-    path('search/', views.search_results, name='search_results'),
+    path('', views.home, name='home'),
+    path('image/<cat_name>/(<int:image_id>)',views.single_image, name='image_gallery'),
+    path('location/<pic_location>', views.new_location, name='filter_location'),
+    path('search', views.search, name='search_images')
 ]
 if settings.DEBUG:
     urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
