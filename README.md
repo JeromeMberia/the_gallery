@@ -116,6 +116,11 @@ Its an application  let you view some of my picture in my gallery
 
 For ways on how to improve the app contact me via jeromemberia@gmail.com.
 
+## Known Bugs
+
+The image doesn't display it's own modal.
+ 
+
 ## Link to the deployed site
 
 [Live site](https://the--gallery.herokuapp.com/)
