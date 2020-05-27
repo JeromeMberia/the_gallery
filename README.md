@@ -119,7 +119,11 @@ For ways on how to improve the app contact me via jeromemberia@gmail.com.
 ## Known Bugs
 
 The image doesn't display it's own modal.
- 
+
+## Admin
+**username** : jack
+**password** : testing123m
+
 
 ## Link to the deployed site
 
